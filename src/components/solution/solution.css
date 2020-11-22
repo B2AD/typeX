@@ -1,0 +1,19 @@
+
+
+.X_Sol-heading {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 2.6em;
+   padding-top: 5vh;
+    color: #b229c1;
+    font-weight: bold;
+}
+.X_Sol-subheading {
+    font-size: 1em;
+    color:#070618;
+    position: relative;
+    text-align: center;
+   padding-left: 15vw;
+   padding-right: 15vw;
+   padding-bottom: 5vh;
+}

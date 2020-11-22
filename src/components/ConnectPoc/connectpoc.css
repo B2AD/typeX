@@ -1,0 +1,56 @@
+.X_AuI {
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.X_AuI-textarea{
+  
+  
+}
+
+.X_CR-Heading {
+    text-align: center;
+    font-size: 2.6em;
+   padding-top: 10vh;
+    color: #b229c1;
+    font-weight: bold;
+}
+.X_CR-SubHeading {
+    font-size: 1em;
+    color:#070618;
+    position: relative;
+    text-align: center;
+}
+
+
+.btnn {
+  border: 3px solid #b229c1;
+  background-color: #ffffff;
+  padding: 14px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+.xpurple-btn  {
+
+  color: #070707;
+
+}
+
+.X_CR-Button {
+    position: relative ;
+    text-align: center;
+
+}
+
+.nm {
+    padding: 100px;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+

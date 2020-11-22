@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.X_text {
+    font-family: 'Open Sans' !important ;
+}
+.X_nav {
+    position: sticky;
+    z-index: 3;
+    overflow-x: hidden;
+}

@@ -1,0 +1,24 @@
+.X_AppPortal {
+    width: 98.5vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../../images/appandportal.jpg");
+}
+.X_AP-Heading {
+    text-align: left;
+    font-size: 2.6em;
+    margin-left: 10vw;
+    padding-top: 8rem;
+
+    color: #070618;
+    font-weight: bold;
+}
+.X_AP-SubHeading {
+    font-size: 1em;
+    color: #fe297d;
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 50vw;
+    text-align: left;
+ 
+}

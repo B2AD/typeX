@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+
+import Landing from './components/Landing/landing';
+import Content from './components/Content/content';
+import AppPortal from './components/AppPortal/appportal';
+import AuI from './components/AugmentedIntel/augment';
+import NavX from './components/Navbar/x_navbar';
+import CountryReach from './components/Country Reach/countryreach';
+import ConnectPOC from './components/ConnectPoc/connectpoc';
+import SolutionNeed from './components/solution/solution';
+import Footer from './components/Footer/footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <NavX/>
+      <Landing/>
+      <Content/>
+      <AppPortal/>
+      <CountryReach/>
+      <AuI/>
+      <ConnectPOC/>
+      <SolutionNeed/>
+      <Footer/>
+
     </div>
   );
 }

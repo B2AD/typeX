@@ -1,0 +1,159 @@
+.X_AuI {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("./../../images/ARbg.jpg");
+
+}
+.X_AuI-textarea{
+  
+  
+}
+
+.X_AuI-Heading {
+    text-align: left;
+    font-size: 2.6em;
+   padding-top: 20vh;
+    margin-left: 10vw;
+
+    color: #b229c1;
+    font-weight: bold;
+}
+.X_AuI-SubHeading {
+    font-size: 1em;
+    color:#070618;
+    position: relative;
+    text-align: left;
+    margin-left: 10vw;
+    width: 50%;
+ 
+}
+
+
+.btnn {
+  border: 4px solid #b229c1;
+  background-color: #ffffff;
+  padding: 14px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+.xpurple-btn  {
+
+  color: #070707;
+
+}
+
+.X_AuI-Button {
+    position: relative ;
+    text-align: left;
+      margin-left: 10vw;
+}
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100);
+
+
+.X_AuICard-Heading {
+margin-top: 35vh;
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5vw;
+    width: 50%;
+    background-color: #070618;
+    padding: 10px;
+}
+
+.X_AuICard-SubHeading {
+    padding: 10px;
+    margin-left: 10vw;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background-color:#070618;
+    text-align: left;
+}
+
+.collapse-list {
+  
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    width: 50%;
+    margin-left: 5vw;
+    background-color:#070618;
+
+    text-align: left;
+   
+}
+
+
+.collapse-open {
+    display: none;
+}
+
+.collapse-painel {
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height .1s,
+    visibility .3s,
+    opacity .3s;
+}
+
+.collapse-open:checked ~ .collapse-painel {
+    max-height: 100%;
+    opacity: 100;
+    color: white;
+    visibility: visible
+}
+
+.collapse-list li {
+    margin-bottom: 0;
+}
+
+.collapse-list .collapse-btn {
+      box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.4),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+    cursor: pointer;
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 0;
+    color: #b229c1;
+    font-weight: normal;
+    transition: background-color .2s ease;
+}
+
+.collapse-list .collapse-btn:hover {
+    background: #eee;
+}
+
+.collapse-open ~ .collapse-btn:before {
+    content: "▶";
+    float: right;
+}
+
+.collapse-open:checked ~ .collapse-btn:before {
+    content: "▼";
+}
+
+.collapse-list .collapse-inner {
+    padding: 10px
+}
+
+.Coll {
+
+   
+}

@@ -1,0 +1,91 @@
+
+.X_Hero {
+   
+    background-image: url("./../../images/heroBG.png");
+    
+   background-size: cover;
+    background-repeat: no-repeat;
+ /*clip-path: polygon( 0 0, 100% 0, 100% 100%, 0% 100%);*/
+    position: static;
+    overflow-y: scroll;
+    
+}
+.X_Hero-Heading {
+    text-align: left;
+    font-size: 4em;
+    margin-left: 1em;
+    padding-top: 8rem;
+
+    color: #070618;
+    font-weight: bold;
+}
+.X_Hero-SubHeading {
+    font-size: 2em;
+    color: #fe297d;
+    position: relative;
+    margin-left: 2em;
+    text-align: left;
+ 
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 3rem;
+  color: white; 
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  color: white;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover:hover::after {
+    transform: scale(1.2);
+    opacity: 0; 
+    color: white;
+  }
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+    background-image: linear-gradient(to right,#fe6845 ,#fe297d,#b229c1);
+  
+  color: #fff; }
+  .btn--white--white::after {
+    background-color: white; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn--animated {
+  animation-name: moveInBotton;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden; }
+
+  .X_App {
+  position: relative ;
+  margin-top: 10vh;
+  left: 35%;
+  transform: translate(-70%, -20%); 
+  }
+
+  .X_System {
+    background-color: #fe297d;
+  }
